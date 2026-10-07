@@ -2,3 +2,14 @@
 .venv/
 __pycache__/
 *.pyc
+
+# AWS credential downloads
+*_accessKeys.csv
+*_credentials.csv
+
+# SSH keys, secrets, Terraform state
+*.pem
+.env
+.terraform/
+*.tfstate
+*.tfstate.*
